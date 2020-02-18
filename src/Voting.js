@@ -359,14 +359,13 @@ export function Voting() {
       </Grid>
       </Grid>
 
-      <Grid container spacing style={{marginBottom:"60px"}}>
+      <Grid container style={{marginBottom:"60px"}}>
         <Grid item xs={3}>
         </Grid>
       <Grid item xs={3} align='center'>
       <Link to="/results">
         <Button variant="contained"
         color="secondary"
-        borderColor="primary"
         onClick={vote} width='%100' align='center'>
           Submit
         </Button>
